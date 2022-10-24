@@ -112,3 +112,32 @@ footer {
     height: 80px;
     background-color: black;
 }
+
+/* lightbox rules go here */
+
+.lightbox {
+    width: 100vw; /* vw = viewpoet width => screen width*/
+    height: 100vh; /* vw = viewport hight => screen height*/
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.85);
+
+    display: none;
+}
+
+.lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.lb_text, .lb_heading { text-align: left;}
+
+.lb_text {
+    line-height: 1.6;
+    margin-left: 0;
+    padding-top: 2em;
+}
